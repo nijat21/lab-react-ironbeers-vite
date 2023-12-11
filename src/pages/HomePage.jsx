@@ -9,17 +9,17 @@ function HomePage() {
         <div className="home-page">
             <br />
             <img src={beers} alt="" />
-            <Link to="/beers">
+            <Link to="/beers" className="hp-texts">
                 <h1>All Beers</h1>
                 <p>Something about those beers</p>
             </Link>
             <img src={randomBeer} alt="" />
-            <Link to="/random-beer">
+            <Link to="/random-beer" className="hp-texts">
                 <h1>Random Beer</h1>
                 <p>Something about those beers</p>
             </Link>
             <img src={newBeer} alt="" />
-            <Link to="/new-beer">
+            <Link to="/new-beer" className="hp-texts">
                 <h1>New Beer</h1>
                 <p>Something about those beers</p>
             </Link>
